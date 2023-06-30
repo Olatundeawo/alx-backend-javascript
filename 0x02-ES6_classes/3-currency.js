@@ -1,26 +1,27 @@
-export default class Currency{
-    constructor(code, name) {
-        this.code = code;
-        this.name = name;
-    }
-    displayFullCurrency() {
-        
-        return `${this.name}  (${this.code})`;
-    }
+export default class Currency {
+  constructor(code, name) {
+    this.code = code;
+    this.name = name;
+  }
 
-    get code() {
-        return this._code;
-    }
+  displayFullCurrency() {
+    return `${this.name}  (${this.code})`;
+  }
 
-    set code(newCode) {
-        this._code = newCode;
-    }
+  get code() {
+    return this._code;
+  }
 
-    get name() {
-        return this._name;
-    }
+  set code(newCode) {
+    this._code = newCode;
+  }
 
-    set name(newName) {
-        this._name = newName;
-    }
+  get name() {
+    return this._name;
+  }
+
+  set name(newName) {
+    this._name = newName;
+  }
 }
+
