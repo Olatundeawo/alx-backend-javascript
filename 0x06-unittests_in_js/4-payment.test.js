@@ -21,4 +21,4 @@ describe('sendPaymentRequestToApi', () => {
     calcNumStub.restore();
     consoleSpy.restore();
   });
-});￼Enter
+});
